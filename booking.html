@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Wedding Hall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo">Wedding Hall.</div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="halls.html">Залы</a>
+                <a href="details.html">Подробнее</a>
+                <a href="booking.html">Бронирование</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Book Your Perfect Venue</h2>
+                <p>Заполните форму для бронирования банкетного зала</p>
+            </div>
+
+            <div class="booking-wrapper">
+
+                <form action="#" method="post">
+
+                    <div class="form-group">
+                        <label>Выберите банкетный зал</label>
+                        <select required>
+                            <option value="">Выберите зал</option>
+                            <option>Royal Palace</option>
+                            <option>Golden Hall</option>
+                            <option>Grand Wedding</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Ваше имя</label>
+                            <input type="text" placeholder="Введите имя" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Номер телефона</label>
+                            <input type="tel" placeholder="+998 90 123 45 67" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Дата мероприятия</label>
+                            <input type="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Количество гостей</label>
+                            <input type="number" min="1" placeholder="200" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Тип мероприятия</label>
+                        <select>
+                            <option>Свадьба</option>
+                            <option>Юбилей</option>
+                            <option>Корпоратив</option>
+                            <option>Другое</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Дополнительные пожелания</label>
+                        <textarea placeholder="Напишите ваши пожелания..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn" style="width:100%;">
+                        Отправить заявку
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="logo">Wedding Hall.</h2>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
